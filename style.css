@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Fraunces:opsz,wght@9..144,700&family=Josefin+Sans:wght@300&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Poppins:wght@500;700;800;900&family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&family=Six+Caps&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    background: hsl(212, 45%, 89%)
+}
+main{
+    display: flexbox; 
+    align-items: center;
+    justify-content: center;
+    margin: 4rem auto;
+    background: hsl(0, 0%, 100%);
+    padding-bottom: 2rem;
+    border-radius: 20px;
+    width: 420px;
+}
+
+img{
+    border-radius: 20px;
+   margin: 0.5rem ;
+    width: 400px;
+}
+h1{
+   
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+p{
+    /* width: 280px; */
+    text-align: center;
+    margin: 1rem 3rem;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+
+
